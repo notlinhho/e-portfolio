@@ -93,7 +93,11 @@ ABOUT ME
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
 
+.about-me__info {
+    display: flex;
+    flex-direction: column;
 }
 
 .about-me__info--container {
@@ -101,7 +105,7 @@ ABOUT ME
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
 }
@@ -112,6 +116,7 @@ ABOUT ME
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+    margin-bottom: 28px;
 
 }
 
@@ -129,7 +134,7 @@ ABOUT ME
 }
 
 .about-me__info--para {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 28px;
 }
 
@@ -138,4 +143,13 @@ ABOUT ME
     color: #242424;
     text-decoration: none;
     padding: 0 16px;
+}
+
+.about-me__img--container {
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+    width: 60%;
 }
