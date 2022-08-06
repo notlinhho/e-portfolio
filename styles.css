@@ -432,6 +432,7 @@ footer {
 .footer__copyright,
 .footer__logo--popper {
     color: #fff;
+    font-size: 18px;
 }
 
 .footer__logo--popper {
