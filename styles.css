@@ -489,7 +489,7 @@ footer {
     }
 }
 
-/* Small Phones */
+/* Small Phones .*/
 @media (max-width: 480px) {
     .nav__link:not(:last-child) {
         display: none;
